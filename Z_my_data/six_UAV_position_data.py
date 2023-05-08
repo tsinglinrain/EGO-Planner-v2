@@ -1,4 +1,4 @@
-# 画一个散点图，又是个坐标
+# six_UAV_position_data
 
 import matplotlib.pyplot as plt
 import numpy as np

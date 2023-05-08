@@ -28,8 +28,14 @@ ax.spines['top'].set_visible(False)
 ax.spines['left'].set_position(('data', 0)) # data方便一些
 ax.spines['bottom'].set_position(('data', 0))
 
+# set label
+ax.set_xlabel('x', loc='right', fontsize=14)  # Add an x-label to the axes.
+ax.set_ylabel('y', loc='top', fontsize=14)  # Add a y-label to the axes.
+ax.set_title("Distribution map of ten UAVs", fontstyle="italic")  # Add a title to the axes.
+
+
 ax.grid()   # 感觉好看一些就加了
 
-plt.savefig('circle_exchange_ten') # 需要保存的时候再反注释，否则编译慢
+# plt.savefig('circle_exchange_ten') # 需要保存的时候再反注释，否则编译慢
 
 plt.show()
